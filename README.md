@@ -93,15 +93,15 @@
 
 ### Задание 1
 - Запускаю два simple python сервера на своей виртуальной машине на разных портах
-[1](https://github.com/BudyGun/cluster-balance/blob/main/IMG/s1.png)
-[1](https://github.com/BudyGun/cluster-balance/blob/main/IMG/s2.png)  
+![1](https://github.com/BudyGun/cluster-balance/blob/main/IMG/s1.png)
+![1](https://github.com/BudyGun/cluster-balance/blob/main/IMG/s2.png)  
 
   
 - Устанавливаю HAProxy:  
 ```
 sudo apt install haproxy
 ```
-[1](https://github.com/BudyGun/cluster-balance/blob/main/IMG/s3.png)  
+![1](https://github.com/BudyGun/cluster-balance/blob/main/IMG/s3.png)  
 
 
 - Настройте балансировку Round-robin на 4 уровне.  
@@ -173,8 +173,8 @@ listen web_tcp
 [Конфигурационный файл.](https://github.com/BudyGun/cluster-balance/blob/main/haproxy.cfg)  
 
 
-[1](https://github.com/BudyGun/cluster-balance/blob/main/IMG/s4.png)  
-[1](https://github.com/BudyGun/cluster-balance/blob/main/IMG/s5.png)  
+![1](https://github.com/BudyGun/cluster-balance/blob/main/IMG/s4.png)  
+![1](https://github.com/BudyGun/cluster-balance/blob/main/IMG/s5.png)  
 
 - На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy.
 
