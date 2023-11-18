@@ -248,6 +248,8 @@ backend web_servers    # секция бэкенд
         server s3 127.0.0.1:7777 weight 4 check
 ```
 
+![1](https://github.com/BudyGun/cluster-balance/blob/main/IMG/s40.png) 
+![1](https://github.com/BudyGun/cluster-balance/blob/main/IMG/s50.png) 
 
 
 
