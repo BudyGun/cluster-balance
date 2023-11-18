@@ -91,8 +91,8 @@
 
 ### Задание 1 Решение
 - Запускаю два simple python сервера на своей виртуальной машине на разных портах
-![1](https://github.com/BudyGun/cluster-balance/blob/main/IMG/s1.png)
-![1](https://github.com/BudyGun/cluster-balance/blob/main/IMG/s2.png)  
+![1](https://github.com/BudyGun/cluster-balance/blob/main/IMG/s11.png)
+![1](https://github.com/BudyGun/cluster-balance/blob/main/IMG/s22.png)  
 
   
 - Устанавливаю HAProxy:  
