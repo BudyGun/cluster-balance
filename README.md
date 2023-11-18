@@ -170,7 +170,7 @@ listen web_tcp
         server s1 127.0.0.1:8888 check inter 3s
         server s2 127.0.0.1:9999 check inter 3s
 ```
-![Конфигурационный файл.](https://github.com/BudyGun/cluster-balance/blob/main/haproxy.cfg)
+[Конфигурационный файл.](https://github.com/BudyGun/cluster-balance/blob/main/haproxy.cfg)  
 ![1](https://github.com/BudyGun/cluster-balance/blob/main/IMG/s4.png)  
 
 
