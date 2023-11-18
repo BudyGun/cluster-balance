@@ -92,13 +92,12 @@
 # Решение
 
 ### Задание 1
-- Запустите два simple python сервера на своей виртуальной машине на разных портах
+- Запускаю два simple python сервера на своей виртуальной машине на разных портах
 ![1](https://github.com/BudyGun/cluster-balance/blob/main/IMG/s1.png)
 ![1](https://github.com/BudyGun/cluster-balance/blob/main/IMG/s2.png)  
 
   
-- Установите и настройте HAProxy, воспользуйтесь материалами к лекции по [ссылке](2/)
-  установка haproxy:
+- Устанавливаю HAProxy:  
 ```
 sudo apt install haproxy
 ```
