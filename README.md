@@ -104,8 +104,8 @@ sudo apt install haproxy
 ![1](https://github.com/BudyGun/cluster-balance/blob/main/IMG/s3.png)  
 
 
-- Настройте балансировку Round-robin на 4 уровне.
-  Добавляю в шаблоне файла конфина раздел listen web_tcp, для балансировки на 4-м уровне:
+- Настройте балансировку Round-robin на 4 уровне.  
+Добавляю в шаблоне файла конфига раздел listen web_tcp, для балансировки на 4-м уровне:
 ```
    global
 	log /dev/log	local0
@@ -167,12 +167,10 @@ backend web_servers    # секция бэкенд
 
 listen web_tcp
         bind :1325
-
         server s1 127.0.0.1:8888 check inter 3s
         server s2 127.0.0.1:9999 check inter 3s
-
 ```
-
+![1](https://github.com/BudyGun/cluster-balance/blob/main/IMG/s4.png)  
 
 
 - На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy.
