@@ -99,8 +99,8 @@
   
 - Установите и настройте HAProxy, воспользуйтесь материалами к лекции по [ссылке](2/)
   установка haproxy:
-  ```
-  sudo apt install haproxy
+```
+sudo apt install haproxy
 ```
 ![1](https://github.com/BudyGun/cluster-balance/blob/main/IMG/s3.png)  
 
